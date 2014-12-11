@@ -1,4 +1,4 @@
 sass
 ====
 
-Advanced Challenge for Sass
+Advanced Challenge for Sass.
