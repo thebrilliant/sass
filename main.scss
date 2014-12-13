@@ -1,0 +1,9 @@
+/* this will be the styling scss for the page */
+
+$fonts:    Copperplate, Helvetica, sans-serif;
+$primary-color: #953BFF;
+
+body {
+  font: $fonts;
+  background-color: $primary-color;
+}
