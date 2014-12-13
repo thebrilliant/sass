@@ -1,0 +1,75 @@
+/* this will be the styling scss for the page */
+
+$fonts: Arial, Helvetica, sans-serif;
+$primary-color: #B478FF;
+$text: #2D1E40;
+$links: #5A3C7F;
+$headers: cursive;
+$generic-bg: #A26CE5;
+
+body {
+  font: 100% $fonts;
+  font-color: $text;
+  background-color: $primary-color;
+
+  h1 {
+  	font: 300% $headers, $fonts;
+  	text-align: center;
+  }
+}
+
+header {
+	nav {
+
+	 	background-color: $generic-bg;
+
+	 	ul {
+	   		margin: 0;
+	    	padding: 0;
+	    	list-style: none;
+	 	}
+
+	  	li {
+	  		display: inline-block;
+	  	}
+
+	  	a {
+	    	display: block;
+	    	padding: 6px 12px;
+	    	text-decoration: none;
+	  	}
+	}
+}
+
+section {
+	h1 {
+		font: 200% $headers, $fonts;
+	}
+}
+
+a {
+	color: $links;
+}
+
+.novels {
+	margin: 5% 5%;
+}
+
+.idly {
+	@extend .novels !optional;
+	
+	h1 {
+		font-size: 150%;
+		font: Brush Script MT;
+	}
+}
+
+.ppts {
+	@extend .novels !optional;
+
+	h1 {
+		font-size: 150%;
+		font: Baskerville;
+	}
+}
+
